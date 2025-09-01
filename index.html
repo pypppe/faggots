@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>skins</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #1c1c1c;
+      color: #ffffff;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    /* Topbar */
+    .topbar {
+      background-color: #222;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .topbar a {
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.3s, background-color 0.3s;
+      padding: 6px 14px;
+      border-radius: 6px;
+    }
+
+    .topbar a:hover {
+      color: #ff66cc;
+      background-color: #333;
+    }
+
+    /* Main content */
+    .content {
+      flex: 1;
+      padding: 40px 32px 20px 32px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .content h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 48px;
+    }
+
+    .content p {
+      text-align: left;
+      margin-bottom: 20px;
+      font-size: 18px;
+      white-space: pre-line; /* preserves line breaks if you copy-paste text */
+    }
+
+    .content p.smaller {
+      opacity: 0.5;
+      font-size: 14px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Topbar -->
+  <div class="topbar">
+    <a href="https://discord.gg/A6byUeqtkE" target="_blank">osu!skins</a>
+    <a href="https://astrarune.com" target="_blank">homepage</a>
+  </div>
+
+  <!-- Main content -->
+  <div class="content">
+    <h1>osu!skins</h1>
+    <p>
+Welcome to the official osu!skins website! This site is dedicated to blogs, development, community support, and more. To join our community, click the osu!skins link at the top to access our Discord server. Please note that this site does not allow osu! skin uploads (we're not hosting them), but it’s designed to complement our Discord community.
+
+Our community has been sharing osu!skins on Discord since 2025! You are welcome to post skins created by others, as long as you give proper credit to the original creator. The Discord server also has spaces for general discussion beyond skinning.
+
+Our developer team, Team osu!skins, is small, so moderation may take some time. However, we do our best to handle NSFW content, homophobia, transphobia, or any other harmful behavior. The community is intended for users 13+, in line with Discord’s age requirements, though this may vary depending on your country.
+
+We hope you enjoy your time here and in our Discord community!
+    </p>
+    <p class="smaller">See ya next time</p>
+  </div>
+</body>
+</html>
